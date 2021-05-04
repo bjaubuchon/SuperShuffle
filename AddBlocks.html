@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title> SUPER SHUFFLE </title>
+    <!-- Later
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen and (orientation:portrait)"/>
+    <link rel="stylesheet" type="text/css" href="landscape.css" media="screen and (orientation:landscape)"/>
+    -->
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+</head>
+
+<body onload="initialize(); loadAllBlocks()">
+    <!-- HTML5 article tag for content -->
+    <div id="content">
+   
+    <header>SUPER SHUFFLE</header>
+
+   <!-- H1 means 1st level heading -->
+   <h1>Add Blocks</h1>
+   
+   <!-- Navigation buttons -->
+   <nav id="main_nav">
+      <ul>
+         <!-- LI stands for list item -->
+         <li><a id="back_button" href="index.html">Back</a></li>
+      </ul>
+   </nav>
+
+	<nav id="block_nav">
+      		<ul id="block_list">
+                <li id="shuffle">shuffle</li>
+                <li id="inOrder">inOrder</li>
+                <li id="startWith">startWith</li>
+                <li id="shuffleRest">shuffleRest</li>
+                <li id="inOrderRest">inOrderRest</li>
+      		</ul>
+   	</nav>
+
+   <footer>CS3041: Human-Computer Interaction </footer>
+    </div>
+    <script src="super_shuffle.js"></script>
+</body>
+</html>
