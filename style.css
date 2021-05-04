@@ -8,6 +8,17 @@
     src: url("eras-demi-itc.ttf");
 }
 
+@font-face{
+    font-family: "Saira2";
+    src: url("Saira-Regular.ttf");
+}
+
+@font-face{
+    font-family: "Saira2";
+    src: url("Saira-Bold.ttf");
+    font-weight: bold;
+}
+
 body{
     background-color: grey;
 }
@@ -49,7 +60,7 @@ nav li  {
     border: 1px solid #333333;
     border-radius: 10px;
     padding: 15px 5px 15px 5px;
-    font-family: Saira;
+    font-family: "Saira2";
     font-weight: bold;
     font-size: 20px;
 }
@@ -82,7 +93,7 @@ nav li a {
 
 nav dt {
     list-style-type: none;
-    font-family: Saira;
+    font-family: "Saira2";
     border-top: 1px solid #333333;
     font-size: 20px;
     font-weight: normal;
@@ -90,7 +101,7 @@ nav dt {
 
 nav dd {
     list-style-type: none;
-    font-family: Saira;
+    font-family: "Saira2";
     font-size: 15px;
     font-weight: normal;
 }
@@ -159,7 +170,7 @@ a {
     border: 1px solid #333333;
     border-radius: 10px;
     padding: 15px 5px 15px 5px;
-    font-family: Saira;
+    font-family: "Saira2";
     font-weight: bold;
     font-size: 20px;
 }
@@ -171,7 +182,7 @@ a {
     border: 1px solid #333333;
     border-radius: 10px;
     padding: 15px 5px 15px 5px;
-    font-family: Saira;
+    font-family: "Saira2";
     font-weight: bold;
     font-size: 20px;
 }
@@ -183,7 +194,7 @@ a {
     border: 1px solid #333333;
     border-radius: 10px;
     padding: 15px 5px 15px 5px;
-    font-family: Saira;
+    font-family: "Saira2";
     font-weight: bold;
     font-size: 20px;
 }
@@ -195,7 +206,7 @@ a {
     border: 1px solid #333333;
     border-radius: 10px;
     padding: 15px 5px 15px 5px;
-    font-family: Saira;
+    font-family: "Saira2";
     font-weight: bold;
     font-size: 20px;
 }
@@ -207,7 +218,7 @@ a {
     border: 1px solid #333333;
     border-radius: 10px;
     padding: 15px 5px 15px 5px;
-    font-family: Saira;
+    font-family: "Saira2";
     font-weight: bold;
     font-size: 20px;
 }
