@@ -3,11 +3,14 @@
 <html>
 <head>
     <title> SUPER SHUFFLE </title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
     <!-- Later
-    <link rel="stylesheet" type="text/css" href="style.css" media="screen and (orientation:portrait)"/>
     <link rel="stylesheet" type="text/css" href="landscape.css" media="screen and (orientation:landscape)"/>
     -->
     <meta name="viewport" content="width=device-width, user-scalable=no" />
+
+    <script src="https://kit.fontawesome.com/0a2d04cfde.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body onload="initialize(); setPreviousPage()">
@@ -23,13 +26,13 @@
    <nav id="main_nav">
       <ul>
          <!-- LI stands for list item -->
-         <li><a href="Playlist1.html">Playlist 1</a>
-	     <a href="Playlist1InOrder.html">Play</a>
-	     <a href="EditPlaylist1.html">Edit</a></li>
-         <li><a href="Playlist2.html">Playlist 2</a>
-	     <a href="Playlist2InOrder.html">Play</a>
-	     <a href="EditPlaylist2.html">Edit</a></li>
-         <li><p>Create Playlist</p></li>
+         <li><a id="play1" href="Playlist1.html">Playlist 1</a>
+	     <a id="play1p" href="Playlist1InOrder.html"><i class="fas fa-play fa-2x"></i></a>
+	     <a id="play1e" href="EditPlaylist1.html"><i class="fas fa-cog fa-2x"></i></a></li>
+         <li><a id="play2" href="Playlist2.html">Playlist 2</a>
+	     <a id="play2p" href="Playlist2InOrder.html"><i class="fas fa-play fa-2x"></i></a>
+	     <a id="play2e" href="EditPlaylist2.html"><i class="fas fa-cog fa-2x"></i></a></li>
+         <li id="cplay"><p>Create Playlist</p></li>
       </ul>
    </nav>
 

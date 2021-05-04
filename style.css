@@ -1,124 +1,213 @@
-header {
- font-family: Futura, Trebuchet MS;
- font-weight: bold condensed;
- color: #AC2B37; 
- font-size: 25px;
- padding: 20px, 30px;
+@font-face{
+    font-family: "HookedUp101";
+    src: url("hooked_up_101.ttf");
 }
 
-body {
- font-family: "Calibri";
- color: #A9B0B7;
- font-size: 18pt;
+@font-face{
+    font-family: "ErasDemi";
+    src: url("eras-demi-itc.ttf");
 }
 
-h1 {
- font-family: "Comic Sans MS";
- color: #000000;
- font-size: 36pt;
- padding: 10px 15px;
+body{
+    background-color: grey;
 }
 
-footer{
- font-family: "Verdana";
- color: #AC2B37;
- text-align: center;
+header{
+    background-color: #A9B0B7;
+    border: 2px solid #127CA6;
+    font-family: "HookedUp101";
+    text-align: center;
+    font-size: 60px;
+    color: #DD6500;
+    border-radius: 10px;
 }
 
-#content {
-    padding:3px;
+h1{
+    background-color: #A9B0B7;
+    border: 2px solid #127CA6;
+    font-family: "ErasDemi";
+    font-size: 30px;
+    color: #DD6500;
+    border-radius: 10px;
+    padding: 5px;
 }
 
-p {
- padding: 5px;
+h2 {
+    background-color: #A9B0B7;
+    border: 2px solid #127CA6;
+    font-family: "ErasDemi";
+    font-size: 25px;
+    color: #DD6500;
+    border-radius: 10px;
+    padding: 3px;
 }
 
-#WPI{
-    /*center the image*/
-    display: block; 
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;}
-
-#main_nav ul { padding: 0; margin: 0; }
-
-#main_nav li  {
-  list-style-type: none; /* remove bullet points */ 
+nav li  {
+    list-style-type: none;
+    margin: 20px 0px 20px -30px;
+    background-image: linear-gradient(to right, #2E3192, #1BFFFF);
+    border: 1px solid #333333;
+    border-radius: 10px;
+    padding: 15px 5px 15px 5px;
+    font-family: Saira;
+    font-weight: bold;
+    font-size: 20px;
 }
 
-#main_nav li a {
-   display: block;
-   text-decoration: none; /* remove underline */
-   border-radius: 10px;  /* rounded corners */
-   margin: 6px;
-   padding: 9px;
-   color: #222;
-   font-weight: bold;
-
-   /* nice gradient shade on the buttons */
-   background-image: linear-gradient(to bottom, rgba(255,255,255,1), rgba(50,50,255,1));
-
-   border: 1px solid #666; /* dark outline */
+nav li a {
+    text-decoration: none;
+    margin: 0px 20px 0px 0px;
+    line-height: 40px;
+    height: 40px;
 }
 
-nav li:active {
-  background-color: #ccc;
-  background-image: none;
-  box-shadow: inset 0 3px 3px rgba(0, 0, 0, .2);
+#play1, #play2 {
+    color: #CCCCCC;
+    margin-right: 120px;
 }
 
-video {
- 	border: 1px solid #666;
-	padding: 9px;
-	margin: 6px;
-	border-radius: 10px;
- 
- 	/* transitions applied to the video element */
- 	-moz-transition: all 1s ease-in-out;
- 	-webkit-transition: all 1s ease-in-out;
- 	-o-transition: all 1s ease-in-out;
- 	-ms-transition: all 1s ease-in-out;
- 	transition: all 1s ease-in-out;
+#cplay {
+    color: #222222;
+    background-image: none;
+    border: 1px solid #222222;
+    border-radius: 10px;
+    padding: 0px 5px;
 }
 
-audio {
-	border: 1px solid #666;
-	padding: 9px;
-	margin: 6px;
-	border-radius: 10px;
+#back_button {
+    color: #CCCCCC;
+    margin-right: 150px;
+    padding: 0px 5px;
 }
 
-button.back{
- /*These lines override the previous styling of buttons*/
-border-image: url("greyButton.png");
-background: url("greyButton.png");
-background-size: cover;
-width:60px;
-height: 30px;
- 
-/*These lines position the back button inside the header*/
-position:absolute;
-left:16px;
-top:8px; }
-
-header.secondary{   
-padding-left: 75px;
+nav dt {
+    list-style-type: none;
+    font-family: Saira;
+    border-top: 1px solid #333333;
+    font-size: 20px;
+    font-weight: normal;
 }
 
-button {
- /*center the button*/
-display: block;
-margin-left: auto;
-margin-right: auto;
- 
-margin-top: 10px;
-margin-bottom: 10px;
- 
-/*add an image to your button*/
-border-image: url("orangeButton.png");
-background: url("orangeButton.png");
-background-size: cover;
+nav dd {
+    list-style-type: none;
+    font-family: Saira;
+    font-size: 15px;
+    font-weight: normal;
+}
 
-width:60px;
-height: 30px;
+#addSS {
+    text-decoration: none;
+    color: #222222;
+    display: block;
+    padding: 10px 0px;
+}
+
+#addS {
+    background-color: #777777;
+}
+
+.addSS {
+    text-decoration: none;
+    color: #222222;
+    display: block;
+    padding: 10px 0px;
+}
+
+.addS {
+    background-color: #777777;
+}
+
+dl i {
+    margin: 0px 5px;
+}
+
+dl {
+    background-color: #AAAAAA;
+}
+
+#preset_list li {
+    background-image: linear-gradient(to right, #2591B1, #EEFFFF);
+}
+
+a {
+    color: #551A8B;
+}
+
+#icon0, #icon1 {
+    margin-left: 130px;
+}
+
+#addBB {
+    text-decoration: none;
+    color: #222222;
+    display:block;
+}
+
+#addB {
+    background-image: none;
+    background-color: #777777;
+}
+
+#block_list i {
+    margin: 0px 5px;
+}
+
+.shuffle {
+    list-style-type: none;
+    margin: 20px 0px 20px -30px;
+    background-image: linear-gradient(to right, #DD6500, #FFBB33);
+    border: 1px solid #333333;
+    border-radius: 10px;
+    padding: 15px 5px 15px 5px;
+    font-family: Saira;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.inOrder {
+    list-style-type: none;
+    margin: 20px 0px 20px -30px;
+    background-image: linear-gradient(to right, #2EB62C, #ABE098);
+    border: 1px solid #333333;
+    border-radius: 10px;
+    padding: 15px 5px 15px 5px;
+    font-family: Saira;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.startWith {
+    list-style-type: none;
+    margin: 20px 0px 20px -30px;
+    background-image: linear-gradient(to right, #DC1C13, #F1959B);
+    border: 1px solid #333333;
+    border-radius: 10px;
+    padding: 15px 5px 15px 5px;
+    font-family: Saira;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.shuffleRest {
+    list-style-type: none;
+    margin: 20px 0px 20px -30px;
+    background-image: linear-gradient(to right, #BB4300, #DD9911);
+    border: 1px solid #333333;
+    border-radius: 10px;
+    padding: 15px 5px 15px 5px;
+    font-family: Saira;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.inOrderRest {
+    list-style-type: none;
+    margin: 20px 0px 20px -30px;
+    background-image: linear-gradient(to right, #0C940A, #89C076);
+    border: 1px solid #333333;
+    border-radius: 10px;
+    padding: 15px 5px 15px 5px;
+    font-family: Saira;
+    font-weight: bold;
+    font-size: 20px;
 }

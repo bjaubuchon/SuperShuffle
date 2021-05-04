@@ -3,11 +3,10 @@
 <html>
 <head>
     <title> SUPER SHUFFLE </title>
-    <!-- Later
-    <link rel="stylesheet" type="text/css" href="style.css" media="screen and (orientation:portrait)"/>
-    <link rel="stylesheet" type="text/css" href="landscape.css" media="screen and (orientation:landscape)"/>
-    -->
+    <link rel="stylesheet" type="text/css" href="style.css"/>
     <meta name="viewport" content="width=device-width, user-scalable=no" />
+
+    <script src="https://kit.fontawesome.com/0a2d04cfde.js" crossorigin="anonymous"></script>
 </head>
 
 <body onload="initialize(); loadPlaylistSongs(1)">
@@ -23,15 +22,15 @@
     <nav id="main_nav">
         <ul>
             <!-- LI stands for list item -->
-            <li><a href="index.html">Back</a></li>
-            <li><a href="EditPlaylist2.html">Edit</a></li>
-            <li><a href="Playlist2InOrder.html">Play</a></li>
+            <li><a id="back_button" href="index.html"><i class="fas fa-arrow-left fa-2x"></i></a>
+                <a href="Playlist2InOrder.html"><i class="fas fa-play fa-2x"></i></a>
+                <a href="EditPlaylist2.html"><i class="fas fa-cog fa-2x"></i></a></li>
         </ul>
     </nav>
 
     <nav id="song_nav">
         <dl id="song_list">
-            <dt id="addS"><a href="AddSongs.html">Add Songs</a></dt>
+            <dt id="addS"><a id="addSS" href="AddSongs.html"><i class="fas fa-plus-circle"></i>Add Songs</a></dt>
         </dl>
     </nav>
 
